@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #f6f7fb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.email {
+  position: absolute;
+  top: 47.5%;
+  left: 47.5%;
+  transform: translate(-50%, -50%);
+}
+.logo {
+  width: 246px;
+  height: 194px;
+}
+#title {
+  background-color: white;
+  width: 550px;
+  height: 465px;
+}
+.title {
+  width: 16rem;
+  height: 4rem;
+}
+.container-form {
+  margin-top: 6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+form .form-field label {
+  color: #a5a7ad;
+  font-size: 22px;
+}
+form .form-field input {
+  background-color: #e8f0fd;
+}
+form .form-field input::placeholder {
+  color: #9ca3aa;
+  font-size: 17px;
+}
+.password {
+  margin-top: 3%;
+}
+form .form-field .password-field {
+  display: flex;
+  position: relative;
+}
+form .form-field .field {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  cursor: pointer;
+  color: #6f6f6f;
+}
+form .form-field .field .fa-eye-slash {
+  position: absolute;
+  top: 12px;
+  right: 1px;
+  cursor: pointer;
+  color: #6f6f6f;
+}
+button {
+  margin-left: 1%;
+  margin-top: 4%;
+  background: #4466f2;
+  color: white;
+  border: none;
+  width: 512px;
+  padding: 5px 0;
+}
+.btn1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Inclusive Sans", sans-serif;
+}
+form a {
+  margin-left: 0.3rem;
+  text-decoration: none;
+  color: #678ff5;
+  font-weight: 500;
+}
+hr {
+  width: 520px;
+}
+
+.footer {
+  font-weight: 700;
+  font-size: 18px;
+  color: #777777;
+}
